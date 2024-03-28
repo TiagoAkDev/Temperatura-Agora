@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    height: 100vh ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1484591974057-265bb767ef71?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMTY0NTc5OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+
+}
+
+.caixa-maior{
+    background: #000;
+    opacity: .6;
+    border-radius: 20px;
+    padding: 10px;
+    width: 95%;
+    max-width: 450px;
+
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #c9c9c92b;
+    color: white; 
+    width: calc(100% - 100px);
+}
+
+.btn-busca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #c9c9c92b;
+    cursor: pointer;
+    float: right;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: white;
+    font-size: 24px;
+    font-weight: 350;
+}
+
+.temp{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.texto-previsao{
+    margin-left: 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+
+}
